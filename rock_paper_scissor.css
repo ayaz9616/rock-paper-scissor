@@ -1,0 +1,71 @@
+body{
+    background-color: greenyellow;
+    align-items: center;
+   
+}
+.heading{
+    color:black;
+    background-color: darkcyan;
+    padding: 5px;
+    text-align: center;
+}
+.choices{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 70px;
+    position: absolute;
+    gap: 320px;
+    padding-left: 240px;
+    
+    
+}
+.img1{
+    
+    position:absolute;
+    border-radius: 50%;
+    width: 100px;
+}
+.img1:hover{
+    border-color: black;
+    border:solid;
+    
+    border-width: 5px;
+    opacity: 0.8;
+    
+}
+.score{
+    display:flex;
+    justify-content: center;
+    padding-top: 200px;
+}
+.players{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-left: 200px;
+    padding-right: 200px;
+    
+}
+.player-score{
+    display: flex;
+    justify-content: center;
+}
+.computer-score{
+    display: flex;
+    justify-content: center;
+}
+.message{
+    padding: 7px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left:auto;
+    margin-right: auto;
+    color:azure;
+    background-color: purple;
+    height: 80px;
+    width: 700px;
+    border-radius: 30px;
+} 
+
+
